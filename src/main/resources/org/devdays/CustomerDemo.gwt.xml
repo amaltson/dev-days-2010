@@ -9,4 +9,7 @@
 
       <!-- Specify the app entry point class. -->
       <entry-point class='org.devdays.client.CustomerDemo'/>
+      
+      <source path="client" />
+      <source path="shared" />
 </module>
