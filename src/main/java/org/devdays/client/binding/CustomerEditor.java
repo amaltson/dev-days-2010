@@ -24,6 +24,9 @@ public class CustomerEditor extends Composite implements Editor<Customer> {
 	@UiField
 	TextBox lastName;
 
+	@UiField
+	AddressEditor addressEditor;
+	
 	public CustomerEditor() {
 		initWidget(uiBinder.createAndBindUi(this));
 	}

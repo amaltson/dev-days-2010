@@ -1,0 +1,29 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<div>
+			Street:
+			<g:TextBox ui:field="street" />
+		</div>
+		<div>
+			City:
+			<g:TextBox ui:field="city" />
+		</div>
+		<div>
+			Province:
+			<g:ListBox ui:field="province" />
+		</div>
+		<div>
+			Country:
+			<g:TextBox ui:field="country" />
+		</div>
+		<div>
+			Postal Code:
+			<g:TextBox ui:field="postalCode" />
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

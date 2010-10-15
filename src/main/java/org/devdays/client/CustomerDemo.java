@@ -22,7 +22,7 @@ public class CustomerDemo implements EntryPoint {
 	public void onModuleLoad() {
 		CustomerEditor editor = new CustomerEditor();
 		driver.initialize(editor);
-		driver.edit(new Customer("1", "Bob", "Smith"));
+		driver.edit(new Customer());
 
 		RootPanel.get().add(editor);
 
