@@ -27,6 +27,9 @@ public class CustomerEditor extends Composite implements Editor<Customer> {
 	@UiField
 	AddressEditor addressEditor;
 	
+	@UiField
+	EmailEditor emailEditor;
+	
 	public CustomerEditor() {
 		initWidget(uiBinder.createAndBindUi(this));
 	}

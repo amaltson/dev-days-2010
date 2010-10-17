@@ -6,9 +6,9 @@ import org.devdays.shared.Customer;
 
 public interface CustomerDao {
 
-	void persist(Customer member);
+	void persist(Customer customer);
 
-	Customer findMemberByIrn(String irn);
+	Customer findCustomerById(String id);
 	
-	List<Customer> findMembersByBulkIrn(String... irns);
+	List<Customer> findCustomerByBulkIds(String... ids);
 }
