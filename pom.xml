@@ -97,6 +97,16 @@
 			<version>${gwt.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.google.gwt.inject</groupId>
+			<artifactId>gin</artifactId>
+			<version>2.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>3.0-SNAPSHOT</version>
+		</dependency>
 
 		<!-- GAE libraries -->
 		<dependency>
@@ -164,6 +174,10 @@
 		<repository>
 			<id>objectify-appengine</id>
 			<url>http://objectify-appengine.googlecode.com/svn/maven</url>
+		</repository>
+		<repository>
+			<id>arthurkalm-snapshots</id>
+			<url>http://github.com/arthurkalm/arthurkalm-mvn-repo/raw/master/snapshots</url>
 		</repository>
 	</repositories>
 
